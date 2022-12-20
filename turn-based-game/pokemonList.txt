@@ -1,0 +1,15 @@
+squirtle water 100 bubble 50 5 waterfall 0
+oshawott water 110 watergun 40 6 aquajet 0
+froakie water 90 bubble 60 4 watershuriken 0
+charmander fire 70 ember 75 6 flamethrower 0
+magby fire 75 firespin 70 4 eruption 0
+litwich fire 70 incinerate 75 4 overheat 0
+starly air 80 wingattack 45 10 bravebird 0
+zubat air 60 airslash 50 12 acrobatics 0
+pidgey air 70 tackle 50 15 hurricane 0
+larvitar earth 75 rocksmash 60 7 earthquake 0
+trapinch earth 51 mudshot 40 7 stoneedge 0
+vanillite ice 67 frostbreath 65 5 blizzard 0
+swinub ice 86 powdersnow 60 6 freezedry 0
+aron steel 160 irontail 25 2 gyroball 0
+beldum steel 150 bulletpunch 30 2 stealbeam 0
