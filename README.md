@@ -2,3 +2,4 @@ The project involves the development of a console application that simulates a t
 The player has a set of 6 creatures which he controls. 
 The goal of the game is to defeat all opponents standing in the way, with the least possible cost to your team.
 The application run from the command line and, based on commands read from the keyboard, perform the appropriate plays for the character.
+- To launch the game open "turn-based-game/cmake-build-release/turn_based_game.exe"
