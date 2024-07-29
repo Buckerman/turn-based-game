@@ -50,4 +50,5 @@ int pokemonStats() {
     cout << "Ability name: " << pokemon.getAbilityName() << endl;
     cout << "Agility %: " << pokemon.getAgility() << endl << endl;
 
+    return 0;
 }

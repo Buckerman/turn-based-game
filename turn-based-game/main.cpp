@@ -7,12 +7,12 @@
 using std::cout;
 using std::cin;
 using std::endl;
+using std::string;
 
 /**
- *
- * @param choice
- * @return cyfre
- * zamienia wybor gracza ze stringa na cyfre, aby uzyc potem w switchu
+ * Converts player choice from string to number for use in switch statement
+ * @param choice The player's choice as a string
+ * @return A number corresponding to the player's choice
  */
 unsigned f(const string& choice) {
     if (choice == "game time") return 1;
@@ -23,19 +23,22 @@ unsigned f(const string& choice) {
 
 int main() {
 
-    cout<<"Welcome to the game."<<endl;
+    cout << "Welcome to the game." << endl;
     string choice = " ";
+    unsigned choiceNumber = 0;
+
     /**
-     * gracz wybiera, co chce zrobic
+     * Player selects what they want to do
      */
-    while (f(choice) != 1) {
+    while (choiceNumber != 1) {
         cout << "Choose what you want to do: " << endl;
         cout << "--Start (type: game time)" << endl;
         cout << "--Instruction (type: -h OR --help) " << endl;
         cout << "--Pokemon Stats (type: pokemon stats)" << endl;
-        std::getline(cin,choice);
-        f(choice);
-        switch (f(choice)) {
+        std::getline(cin, choice);
+        choiceNumber = f(choice);
+
+        switch (choiceNumber) {
             case 1: {
                 start();
                 break;
@@ -44,13 +47,13 @@ int main() {
                 gameInstructions();
                 break;
             }
-            case 3:{
-                cout << "Choose which pokemon stats would you like to see: (type: number)"<<endl;
+            case 3: {
+                cout << "Choose which pokemon stats you would like to see: (type: number)" << endl;
                 pokemonStats();
                 break;
             }
             default:
-                cout <<"Wrong choice"<<endl<<endl;
+                cout << "Wrong choice" << endl << endl;
                 break;
         }
     }

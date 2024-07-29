@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="turn_based_game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="turn_based_game">
+				<Option output="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/turn_based_game.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 turn_based_game"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="turn_based_game/fast">
+				<Option output="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/turn_based_game.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 turn_based_game/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/ListOfPokemons.cpp">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/ListOfPokemons.h">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/Player.cpp">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/Player.h">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/PlayerPokemonList.cpp">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/PlayerPokemonList.h">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/gameInstructions.cpp">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/gameInstructions.h">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/main.cpp">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/pokemon.cpp">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/pokemon.h">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/pokemonStats.cpp">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/pokemonStats.h">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/start.cpp">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/start.h">
+			<Option target="turn_based_game"/>
+		</Unit>
+		<Unit filename="D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
