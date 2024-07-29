@@ -1,0 +1,11 @@
+# ninja log v5
+10	521	7439578338867361	CMakeFiles/turn_based_game.dir/gameInstructions.cpp.obj	afae040c27223718
+523	1097	7439578344647240	CMakeFiles/turn_based_game.dir/Player.cpp.obj	e14667ee9aa4c1df
+46	659	7439578340273309	CMakeFiles/turn_based_game.dir/pokemon.cpp.obj	d2e641a185012685
+73	790	7439578341522968	CMakeFiles/turn_based_game.dir/pokemonStats.cpp.obj	a55e420e192277d3
+0	820	7439578341679187	CMakeFiles/turn_based_game.dir/main.cpp.obj	c9095f0fc016e778
+660	1393	7439578347615310	CMakeFiles/turn_based_game.dir/PlayerPokemonList.cpp.obj	798b0852b98ac902
+19	1777	7439578351520937	CMakeFiles/turn_based_game.dir/start.cpp.obj	57ca16ec3b440705
+29	899	7439578342616460	CMakeFiles/turn_based_game.dir/ListOfPokemons.cpp.obj	3f556b904dfad7c7
+1778	1961	7439578353239063	turn_based_game.exe	90b9abce6d89dc4
+7	647	7439581694249867	turn_based_game.exe	b36cd1c713ad495

@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 project(turn_based_game)
+add_link_options(-static -static-libgcc -static-libstdc++)
 
 set(CMAKE_CXX_STANDARD 14)
 

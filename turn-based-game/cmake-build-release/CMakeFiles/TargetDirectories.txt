@@ -1,0 +1,3 @@
+D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/CMakeFiles/turn_based_game.dir
+D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/Aplikacje/Unity/Projects/turn-based-game/turn-based-game/cmake-build-release/CMakeFiles/rebuild_cache.dir
